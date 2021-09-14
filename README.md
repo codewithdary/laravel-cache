@@ -93,7 +93,7 @@ Cache::get(‘users’);
 You can also get an instance from the container
 ```ruby
 Route::get(‘users’), function(Illuminate\Contracts\Cache\Repository $cache) {
-	Return $cache->get(‘users’);
+	return $cache->get(‘users’);
 });
 ```
 
@@ -235,7 +235,8 @@ public function handle($event)
     Cache::forget('posts');
 
     Cache::forever('posts', Post::all());
-}```
+}
+```
 We got to make sure that we remove the cache, even when it hasn’t been set. Then, we got to make sure that we create a new cache which will last forever. The values will be grabbed from the Post model.
 
 We got to make sure that we hook our event into our model, which can easily be done with the property ```$dispatchesEvents``` in the ```Post``` model.
