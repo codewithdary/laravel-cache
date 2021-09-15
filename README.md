@@ -40,7 +40,7 @@ In Laravel, the cache is the act of transparently storing data for future use in
 
 You can definitely say that a cache looks like a session. You definitely use them in the same exact way, since you need to provide a key to store them.
 
-Of course, there are differences. ```Sessions``` are used to store data between page requests while a cache is used to cache data per application. Therefore, you usually store stuff like database queries and API calls in your cache.
+Of course, there are differences. ```Sessions``` are used to store data between page requests while a ```cache``` is used to cache data per application. Therefore, you usually store stuff like database queries and API calls in your cache.
 
 ## Cache Configuration
 
