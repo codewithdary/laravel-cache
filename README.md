@@ -1,4 +1,4 @@
-## Sessions in Laravel
+## Cache in Laravel
 
 The following documentation is based on my [Laravel Cache for Beginners](https://www.youtube.com/watch?v=UjA-16diixc) tutorial we’re going to cover the basics of cache in Laravel. <br> <br>
 •	Author: [Code With Dary](https://github.com/codewithdary) <br>
